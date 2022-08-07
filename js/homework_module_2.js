@@ -118,24 +118,29 @@ console.log(`iteratorBuilder = ${iteratorBuilder}`);
 
  console.log("--7--");
 
+
  var n1 = 5;
+ var message;
+
  switch(n1) {
     case(1):
-        console.log("Один");
+        message ="Один";
         break;
     case(2):
-        console.log("Два");
+        message = "Два";
         break;
     case(3):
-        console.log("Три");
+        message = "Три";
         break;
     case(4):
-        console.log("Четыре");
+        message = "Четыре";
         break;
     case(5):
-        console.log("Пять");
+        message = "Пять";
         break;
  }
+
+ console.log(message);
 
  /**
   8. Используя document.write() и любую из циклических конструкций выведите  
